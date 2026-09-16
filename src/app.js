@@ -34,11 +34,11 @@ swaggerDocs(app);
 
 const PORT = process.env.PORT || 3000;
 
-sequelize.sync({ alter: true }).then(async () => {
+sequelize.sync().then(async () => {
   console.log('Base de datos sincronizada.');
 
   try {
-    // Ejecutar seeders
+    // Ejecutar seeders solo si lo deseas o déjalos condicionales
     await seedUser();
     await seedCategorys();
     console.log('Seeders ejecutados correctamente.');
