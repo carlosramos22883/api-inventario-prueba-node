@@ -29,7 +29,7 @@ Sigue estos pasos si necesitas levantar el proyecto en una computadora nueva:
 ```bash
 mkdir api-inventario-prueba-node
 cd api-inventario-prueba-node
-git clone [git@github.com:carlosramos22883/api-inventario-prueba-node.git]
+git clone git@github.com:carlosramos22883/api-inventario-prueba-node.git
 ```
 
 ### 2. Instalar las dependencias
